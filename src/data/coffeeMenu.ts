@@ -15,7 +15,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Classic Espresso',
     description: 'Rich, bold espresso shot with perfect crema',
     price: 2.50,
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e33?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=300&fit=crop&auto=format',
     category: 'hot',
     badge: 'bestseller'
   },
@@ -24,7 +24,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Cappuccino Supreme',
     description: 'Velvety steamed milk with our signature espresso blend',
     price: 4.25,
-    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format',
     category: 'hot',
     badge: 'bestseller'
   },
@@ -33,7 +33,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Caramel Macchiato',
     description: 'Sweet caramel with espresso and steamed milk',
     price: 5.50,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&auto=format',
     category: 'hot'
   },
   {
@@ -41,7 +41,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Iced Coffee Delight',
     description: 'Refreshing cold brew with your choice of milk',
     price: 3.75,
-    image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400&h=300&fit=crop&auto=format',
     category: 'cold'
   },
   {
@@ -49,7 +49,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Frappé Supreme',
     description: 'Blended iced coffee with whipped cream',
     price: 6.00,
-    image: 'https://images.unsplash.com/photo-1570968915860-85b9b52d2b8a?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1570968915860-85b9b52d2b8a?w=400&h=300&fit=crop&auto=format',
     category: 'cold',
     badge: 'new'
   },
@@ -58,7 +58,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Pumpkin Spice Latte',
     description: 'Seasonal favorite with warm spices and pumpkin flavor',
     price: 5.75,
-    image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1602057590004-dfb9ad996e20?w=400&h=300&fit=crop&auto=format',
     category: 'specialty',
     badge: 'seasonal'
   },
@@ -67,7 +67,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Vanilla Latte',
     description: 'Smooth vanilla syrup with perfectly steamed milk',
     price: 4.75,
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop&auto=format',
     category: 'hot'
   },
   {
@@ -75,7 +75,7 @@ export const coffeeMenu: Coffee[] = [
     name: 'Cold Brew Tonic',
     description: 'Refreshing cold brew with tonic water and citrus',
     price: 4.50,
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop&auto=format',
     category: 'cold',
     badge: 'new'
   }
