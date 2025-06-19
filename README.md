@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# ☕ Brewtopia – Motion-Scape 39
 
-## Project info
+Welcome to **Brewtopia**, an immersive, animated coffee shop web experience built for **Motion-Scape 39**. This modern website includes parallax effects, scroll animations, theme toggling, a dynamic menu with a shopping cart, and smooth UI interactions powered by the world’s best frontend tech stack.
 
-**URL**: https://lovable.dev/projects/78de19ec-37c5-4cd1-976e-2a54fd57bda5
+![Brewtopia Banner](https://raw.githubusercontent.com/AkhilBarman/brewtopia-motion-scape-39/main/public/cover.jpg) <!-- Optional image link -->
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔥 Features
 
-**Use Lovable**
+- ⚡ Smooth Page Loader Animation
+- 📜 Parallax Scrolling Effects
+- 🖱️ Ripple Click Effects
+- 🌘 Light/Dark Theme Toggle
+- 🧭 Navigation: Home, About, Testimonials, Contact
+- 🛒 Interactive Coffee Menu with:
+  - Image cards
+  - Descriptions
+  - Pricing
+  - Add-to-Cart functionality
+- 🧾 Fully functioning Cart with quantity updates
+- 💬 Popup Modals & Scroll Animations
+- 📱 Mobile Responsive
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/78de19ec-37c5-4cd1-976e-2a54fd57bda5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Tech Stack
 
-**Use your preferred IDE**
+| Tool/Library | Purpose                          |
+|--------------|----------------------------------|
+| React.js     | Frontend Framework               |
+| Vite         | Fast Development & Build Tool    |
+| Tailwind CSS | Styling Framework                |
+| Framer Motion| Animations and Motion Effects    |
+| React Router | Page Navigation                  |
+| Context API  | Theme + Cart State Management    |
+| LocalStorage | Persistent Cart & Theme Settings |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Installation & Running Locally
 
-Follow these steps:
+Clone the repository and install dependencies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/AkhilBarman/brewtopia-motion-scape-39.git
+cd brewtopia-motion-scape-39
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/78de19ec-37c5-4cd1-976e-2a54fd57bda5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
