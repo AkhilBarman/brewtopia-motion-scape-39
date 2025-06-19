@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import RippleButton from './RippleButton';
 
 interface HeroProps {
@@ -8,7 +7,12 @@ interface HeroProps {
 }
 
 const Hero = ({ onOpenModal }: HeroProps) => {
-  const navigate = useNavigate();
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative overflow-hidden">
@@ -35,7 +39,7 @@ const Hero = ({ onOpenModal }: HeroProps) => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <RippleButton
-              onClick={() => navigate('/menu')}
+              onClick={() => scrollToSection('menu')}
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transform transition-all duration-300 hover:scale-105"
             >
               View Our Menu ☕

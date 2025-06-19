@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import Loader from '@/components/Loader';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import MenuSection from '@/components/MenuSection';
 import About from '@/components/About';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
@@ -28,6 +29,7 @@ const Index = () => {
         <div className={`transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
           <Navigation />
           <Hero onOpenModal={openModal} />
+          <MenuSection />
           <About />
           <Testimonials />
           <Contact />

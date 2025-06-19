@@ -7,7 +7,6 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import RippleButton from './RippleButton';
 import CartSidebar from './CartSidebar';
-import { useNavigate, useLocation } from 'react-router-dom';
 
 const Navigation = () => {
   const { theme, toggleTheme } = useTheme();
@@ -15,8 +14,6 @@ const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const navigate = useNavigate();
-  const location = useLocation();
 
   const totalItems = getTotalItems();
 
@@ -29,25 +26,10 @@ const Navigation = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    if (location.pathname !== '/') {
-      navigate('/');
-      setTimeout(() => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 100);
-    } else {
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsMobileMenuOpen(false);
-  };
-
-  const navigateToMenu = () => {
-    navigate('/menu');
     setIsMobileMenuOpen(false);
   };
 
@@ -62,7 +44,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between">
             <div 
               className="text-2xl font-bold text-amber-800 dark:text-amber-200 cursor-pointer"
-              onClick={() => navigate('/')}
+              onClick={() => scrollToSection('home')}
             >
               ☕ Brewtopia
             </div>
@@ -70,7 +52,7 @@ const Navigation = () => {
             <div className="hidden md:flex items-center space-x-8">
               {[
                 { label: 'Home', action: () => scrollToSection('home') },
-                { label: 'Menu', action: navigateToMenu },
+                { label: 'Menu', action: () => scrollToSection('menu') },
                 { label: 'About', action: () => scrollToSection('about') },
                 { label: 'Testimonials', action: () => scrollToSection('testimonials') },
                 { label: 'Contact', action: () => scrollToSection('contact') }
@@ -150,7 +132,7 @@ const Navigation = () => {
               <div className="flex flex-col space-y-4 pt-4">
                 {[
                   { label: 'Home', action: () => scrollToSection('home') },
-                  { label: 'Menu', action: navigateToMenu },
+                  { label: 'Menu', action: () => scrollToSection('menu') },
                   { label: 'About', action: () => scrollToSection('about') },
                   { label: 'Testimonials', action: () => scrollToSection('testimonials') },
                   { label: 'Contact', action: () => scrollToSection('contact') }
