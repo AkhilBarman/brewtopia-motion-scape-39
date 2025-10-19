@@ -1,6 +1,6 @@
-# ☕ Brewtopia – Motion-Scape 39
+# ☕ Brewtopia
 
-Welcome to **Brewtopia**, an immersive, animated coffee shop web experience built for **Motion-Scape 39**. This modern website includes parallax effects, scroll animations, theme toggling, a dynamic menu with a shopping cart, and smooth UI interactions powered by the world’s best frontend tech stack.
+Welcome to **Brewtopia**, an immersive, animated coffee shop web experience. This modern website includes parallax effects, scroll animations, theme toggling, a dynamic menu with a shopping cart, and smooth UI interactions powered by the world’s best frontend tech stack.
 
 ![Brewtopia Banner](https://raw.githubusercontent.com/AkhilBarman/brewtopia-motion-scape-39/main/public/cover.jpg) <!-- Optional image link -->
 
